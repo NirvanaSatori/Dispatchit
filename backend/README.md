@@ -1,6 +1,6 @@
-        SendIT Courier.
+        DispatchIT Courier.
 
-SendIT is a courier service that helps users deliver parcels to different destinations. It provides courier quotes(prices) based on weight categories. SendIT provides our user with a platform where they can get a quote on their parcels, create a delivery pickup and drop-off destination and track their order status online.
+DispatchIT is a courier service that helps users deliver parcels to different destinations. It provides courier quotes(prices) based on weight categories. DispatchIT provides our user with a platform where they can get a quote on their parcels, create a delivery pickup and drop-off destination and track their order status online.
 
         MVP Features
     1.User can create an account and log in.
@@ -23,4 +23,4 @@ SendIT is a courier service that helps users deliver parcels to different destin
     The project is built using ReactJS and Redux Toolkit for the frontend and Ruby on Rails for the backend, with PostgreSQL as the database.
 
         Conclusion
-    SendIT is a courier service that provides a simple solution for users to deliver parcels to different destinations. With features like real-time email notifications and Google Maps integration, users can easily keep track of their parcel deliveries.
+    DispatchIT is a courier service that provides a simple solution for users to deliver parcels to different destinations. With features like real-time email notifications and Google Maps integration, users can easily keep track of their parcel deliveries.
