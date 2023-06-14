@@ -31,6 +31,7 @@ function App() {
       <Route path="/contact-us" element={<ContactUs />}></Route>
       <Route path="/about" element={<AboutPage/>}></Route>
       <Route path="/all-orders" element={<AdminOrders/>}></Route>
+      <Route element={<PageNotFound/>} path = '*' />
       </Routes>
     </div>
   );
