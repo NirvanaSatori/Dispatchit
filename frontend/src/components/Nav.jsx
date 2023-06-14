@@ -265,7 +265,7 @@ const Nav = () => {
                 >
                   Home
                 </Link>
-
+{/* 
                 <Link
                   to="/about"
                   className="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
@@ -284,7 +284,7 @@ const Nav = () => {
                   id="menu-item-2"
                 >
                   Contact Us
-                </Link>
+                </Link> */}
                 {user.id && (
                   <button
                     onClick={orders}
