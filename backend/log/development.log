@@ -734,3 +734,35 @@ Completed 401 Unauthorized in 53ms (Views: 0.6ms | ActiveRecord: 30.5ms | Alloca
 Completed 401 Unauthorized in 50ms (Views: 0.8ms | ActiveRecord: 27.0ms | Allocations: 10628)
 
 
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-14 03:56:01 +0300
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-14 03:56:01 +0300
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-14 03:56:01 +0300
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-14 03:56:01 +0300
+Processing by UsersController#logged_in as */*
+Processing by UsersController#logged_in as */*
+Processing by UsersController#logged_in as */*
+Processing by UsersController#logged_in as */*
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.66ms)
+Completed 401 Unauthorized in 54ms (Views: 4.5ms | ActiveRecord: 23.8ms | Allocations: 13519)
+
+
+  [1m[36mUser Load (6.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.38ms)
+Completed 401 Unauthorized in 57ms (Views: 2.3ms | ActiveRecord: 27.8ms | Allocations: 13829)
+
+
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+Completed 401 Unauthorized in 48ms (Views: 6.2ms | ActiveRecord: 23.7ms | Allocations: 11871)
+
+
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.4ms)
+Completed 401 Unauthorized in 64ms (Views: 5.8ms | ActiveRecord: 26.1ms | Allocations: 14004)
+
+
