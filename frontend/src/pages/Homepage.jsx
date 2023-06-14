@@ -18,7 +18,7 @@ function Homepage() {
       <Nav />
       <Hero />
       <GetStarted />
-      <About />
+      {/* <About /> */}
       <Info />
       <Footer />
     </div>
