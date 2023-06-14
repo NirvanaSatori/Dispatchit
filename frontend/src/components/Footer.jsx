@@ -1,11 +1,13 @@
 
 const navigation = {
   main: [
-    { name: 'About', href: '#' },
+    { name: 'About', href:'/about' },
+    { name: 'Contact Us', href: '/contact-us' },
+    { name: 'Administrators', href: '/login' },
     { name: 'Blog', href: '#' },
     { name: 'Jobs', href: '#' },
     { name: 'Partners', href: '#' },
-    { name: 'Administrator', href: '#' },
+    
 
   ],
   social: [
@@ -64,7 +66,7 @@ const navigation = {
 export default function Footer() {
   return (
     <footer className="bg-slate-900 text-white">
-      <div className="mx-auto max-w-7xl overflow-hidden py-20 px-6 sm:py-12 lg:px-8">
+      <div className="mx-auto max-w-8xl overflow-hidden py-20 px-6 sm:py-12 lg:px-8">
         <nav className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-48" aria-label="Footer">
           {navigation.main.map((item) => (
             <div key={item.name} className="pb-6">

@@ -38,7 +38,7 @@ export default function Info() {
     <div className="bg-white py-12 sm:py-12">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">
+          <h2 className="text-lg underline font-semibold leading-8 tracking-tight text-indigo-600">
             Our Services
           </h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
