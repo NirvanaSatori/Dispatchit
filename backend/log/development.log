@@ -613,3 +613,68 @@ Completed 401 Unauthorized in 162ms (Views: 5.3ms | ActiveRecord: 60.5ms | Alloc
 Completed 401 Unauthorized in 163ms (Views: 2.6ms | ActiveRecord: 70.9ms | Allocations: 21883)
 
 
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-14 03:00:15 +0300
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-14 03:00:15 +0300
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-14 03:00:15 +0300
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-14 03:00:15 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#logged_in as */*
+Processing by UsersController#logged_in as */*
+Processing by UsersController#logged_in as */*
+Processing by UsersController#logged_in as */*
+  [1m[36mUser Load (1.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.41ms)
+Completed 401 Unauthorized in 63ms (Views: 5.6ms | ActiveRecord: 6.4ms | Allocations: 13544)
+
+
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.23ms)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.17ms)
+Completed 401 Unauthorized in 88ms (Views: 2.5ms | ActiveRecord: 19.0ms | Allocations: 20442)
+
+
+Completed 401 Unauthorized in 89ms (Views: 1.4ms | ActiveRecord: 21.9ms | Allocations: 20679)
+
+
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.12ms)
+Completed 401 Unauthorized in 93ms (Views: 1.1ms | ActiveRecord: 19.3ms | Allocations: 21577)
+
+
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-14 03:01:42 +0300
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-14 03:01:42 +0300
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-14 03:01:42 +0300
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-14 03:01:42 +0300
+Processing by UsersController#logged_in as */*
+  [1m[36mUser Load (3.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.62ms)
+Completed 401 Unauthorized in 17ms (Views: 2.2ms | ActiveRecord: 3.0ms | Allocations: 1587)
+
+
+Processing by UsersController#logged_in as */*
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 401 Unauthorized in 5ms (Views: 1.3ms | ActiveRecord: 0.4ms | Allocations: 1001)
+
+
+Processing by UsersController#logged_in as */*
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 401 Unauthorized in 8ms (Views: 0.8ms | ActiveRecord: 1.8ms | Allocations: 974)
+
+
+Processing by UsersController#logged_in as */*
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.49ms)
+Completed 401 Unauthorized in 9ms (Views: 3.7ms | ActiveRecord: 0.4ms | Allocations: 854)
+
+
