@@ -12,6 +12,7 @@ import { getLoggedInUser } from "../slices/loggedInUserSlice";
 import ContactUs from "./ContactUs";
 import AboutPage from "./AboutPage";
 import AdminOrders from "./AdminOrders";
+import PageNotFound from "./PageNotFound";
 
 function App() {
   const dispatch = useDispatch()

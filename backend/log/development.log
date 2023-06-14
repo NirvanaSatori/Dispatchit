@@ -1449,3 +1449,147 @@ Processing by UsersController#logged_in as */*
 Completed 401 Unauthorized in 5ms (Views: 1.0ms | ActiveRecord: 0.3ms | Allocations: 854)
 
 
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-15 02:46:30 +0300
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-15 02:46:30 +0300
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-15 02:46:30 +0300
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-15 02:46:30 +0300
+Processing by UsersController#logged_in as */*
+Processing by UsersController#logged_in as */*
+Processing by UsersController#logged_in as */*
+  [1m[36mUser Load (2.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.32ms)
+Completed 401 Unauthorized in 82ms (Views: 4.1ms | ActiveRecord: 40.8ms | Allocations: 8074)
+
+
+Processing by UsersController#logged_in as */*
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 401 Unauthorized in 10ms (Views: 2.7ms | ActiveRecord: 1.0ms | Allocations: 2691)
+
+
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.15ms)
+Completed 401 Unauthorized in 81ms (Views: 2.3ms | ActiveRecord: 32.6ms | Allocations: 9168)
+
+
+Completed 401 Unauthorized in 93ms (Views: 1.7ms | ActiveRecord: 46.2ms | Allocations: 10606)
+
+
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-15 02:46:48 +0300
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-15 02:46:48 +0300
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-15 02:46:48 +0300
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-15 02:46:48 +0300
+Processing by UsersController#logged_in as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.14ms)
+Completed 401 Unauthorized in 6ms (Views: 1.2ms | ActiveRecord: 0.6ms | Allocations: 913)
+
+
+Processing by UsersController#logged_in as */*
+Processing by UsersController#logged_in as */*
+  [1m[36mUser Load (7.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.4ms)
+Completed 401 Unauthorized in 25ms (Views: 4.5ms | ActiveRecord: 7.2ms | Allocations: 1301)
+
+
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+Processing by UsersController#logged_in as */*
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.19ms)
+Completed 401 Unauthorized in 38ms (Views: 3.3ms | ActiveRecord: 1.2ms | Allocations: 2196)
+
+
+  [1m[36mUser Load (2.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.62ms)
+Completed 401 Unauthorized in 21ms (Views: 4.8ms | ActiveRecord: 2.4ms | Allocations: 1282)
+
+
+Started GET "/parcels" for 127.0.0.1 at 2023-06-15 02:46:59 +0300
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-15 02:46:59 +0300
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-15 02:46:59 +0300
+Started GET "/parcels" for 127.0.0.1 at 2023-06-15 02:46:59 +0300
+Processing by ParcelsController#index as */*
+  [1m[36mParcel Load (3.1ms)[0m  [1m[34mSELECT "parcels".* FROM "parcels"[0m
+  ↳ app/controllers/parcels_controller.rb:4:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (1.21ms)
+Completed 200 OK in 71ms (Views: 28.2ms | ActiveRecord: 3.1ms | Allocations: 5331)
+
+
+Processing by UsersController#logged_in as */*
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 401 Unauthorized in 9ms (Views: 1.6ms | ActiveRecord: 0.8ms | Allocations: 1033)
+
+
+Processing by UsersController#logged_in as */*
+Processing by ParcelsController#index as */*
+  [1m[36mUser Load (2.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+  [1m[36mParcel Load (2.6ms)[0m  [1m[34mSELECT "parcels".* FROM "parcels"[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.14ms)
+  ↳ app/controllers/parcels_controller.rb:4:in `index'
+Completed 401 Unauthorized in 17ms (Views: 4.0ms | ActiveRecord: 2.9ms | Allocations: 1755)
+
+
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (0.32ms)
+Completed 200 OK in 18ms (Views: 14.1ms | ActiveRecord: 2.6ms | Allocations: 1761)
+
+
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-15 02:47:06 +0300
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-15 02:47:06 +0300
+Processing by UsersController#logged_in as */*
+Processing by UsersController#logged_in as */*
+  [1m[36mUser Load (1.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.21ms)
+Completed 401 Unauthorized in 18ms (Views: 3.5ms | ActiveRecord: 1.1ms | Allocations: 2053)
+
+
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.27ms)
+Completed 401 Unauthorized in 19ms (Views: 3.0ms | ActiveRecord: 0.7ms | Allocations: 1798)
+
+
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-15 02:47:09 +0300
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-15 02:47:09 +0300
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-15 02:47:09 +0300
+Started GET "/logged-in" for 127.0.0.1 at 2023-06-15 02:47:09 +0300
+Processing by UsersController#logged_in as */*
+Processing by UsersController#logged_in as */*
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.22ms)
+Completed 401 Unauthorized in 8ms (Views: 1.7ms | ActiveRecord: 0.8ms | Allocations: 1319)
+
+
+  [1m[36mUser Load (6.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.2ms)
+Completed 401 Unauthorized in 13ms (Views: 2.0ms | ActiveRecord: 6.0ms | Allocations: 1883)
+
+
+Processing by UsersController#logged_in as */*
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.42ms)
+Completed 401 Unauthorized in 9ms (Views: 2.3ms | ActiveRecord: 0.7ms | Allocations: 956)
+
+
+Processing by UsersController#logged_in as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25:in `logged_in'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.18ms)
+Completed 401 Unauthorized in 6ms (Views: 1.2ms | ActiveRecord: 0.5ms | Allocations: 854)
+
+
