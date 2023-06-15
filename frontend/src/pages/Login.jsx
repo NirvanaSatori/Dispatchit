@@ -36,7 +36,7 @@ function Login() {
       .then((data) => {
         if (!data.errors) {
           Swal.fire({
-            position: "top-end",
+            position: "center",
             icon: "success",
             title: "Your login was successful",
             showConfirmButton: false,
