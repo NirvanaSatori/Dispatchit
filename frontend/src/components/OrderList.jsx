@@ -107,12 +107,7 @@ export default function OrderList() {
           </div>
         ))}     
       </div>
-      <div className="container">
-          
-            
-          
-
-       
+      <div className="container">     
           <Paginate
             currentPage={currentPage}
             setCurrentPage={setCurrentPage}
