@@ -265,26 +265,6 @@ const Nav = () => {
                 >
                   Home
                 </Link>
-{/* 
-                <Link
-                  to="/about"
-                  className="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                  role="menuitem"
-                  tabIndex="-1"
-                  id="menu-item-1"
-                >
-                  About
-                </Link>
-
-                <Link
-                  to="/contact-us"
-                  className="text-gray-700 block px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                  role="menuitem"
-                  tabIndex="-1"
-                  id="menu-item-2"
-                >
-                  Contact Us
-                </Link> */}
                 {user.id && (
                   <button
                     onClick={orders}
