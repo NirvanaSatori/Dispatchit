@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins "https://dispatchit.onrender.com"
+    origins "https://dispatchit.netlify.app"
 
     resource "*",
       headers: :any,
