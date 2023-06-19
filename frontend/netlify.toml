@@ -1,0 +1,19 @@
+[[redirects]]
+  from = "/login"
+  to = "https://dispatchitt.onrender.com/login"
+  status = 200
+
+[[redirects]]
+  from = "/logged-in"
+  to = "https://dispatchitt.onrender.com/logged-in"
+  status = 200
+
+[[redirects]]
+  from = "/users"
+  to = "https://dispatchitt.onrender.com/users"
+  status = 200
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
