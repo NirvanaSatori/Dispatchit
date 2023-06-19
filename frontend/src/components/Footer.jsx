@@ -4,8 +4,6 @@ const navigation = {
     { name: 'About', href:'/about' },
     { name: 'Contact Us', href: '/contact-us' },
     { name: 'Administrators', href: '/login' },
-    { name: 'Blog', href: '#' },
-    { name: 'Jobs', href: '#' },
     { name: 'Partners', href: '#' },
   ],
   social: [
