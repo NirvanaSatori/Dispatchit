@@ -144,7 +144,7 @@ const Nav = () => {
                     className="text-gray-700 block w-full px-4 py-2 text-left text-sm border-none hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                   >
                     {user.user_type === "Customer"
-                      ? "Your Orders"
+                      ? "My Orders"
                       : "All Orders"}
                   </button>
                 )}
@@ -183,7 +183,7 @@ const Nav = () => {
 
             {user.id && (
               <button onClick={orders} className="text-white">
-                {user.user_type === "Customer" ? "Your Orders" : "All Orders"}
+                {user.user_type === "Customer" ? "My Orders" : "All Orders"}
               </button>
             )}
           </ul>
@@ -271,7 +271,7 @@ const Nav = () => {
                     className="text-gray-700 block w-full px-4 py-2 text-left text-sm border-none hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                   >
                     {user.user_type === "Customer"
-                      ? "Your Orders"
+                      ? "My Orders"
                       : "All Orders"}
                   </button>
                 )}
