@@ -25,7 +25,7 @@ function Login() {
 
   function login(e) {
     e.preventDefault();
-    fetch("/login", {
+    fetch("/log-in", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
