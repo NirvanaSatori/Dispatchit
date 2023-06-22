@@ -13,6 +13,11 @@
   to = "https://dispatchitt.onrender.com/users"
   status = 200
 
+  [[redirects]]
+  from = "/parcels"
+  to = "https://dispatchitt.onrender.com/parcels"
+  status = 200
+
 [[redirects]]
   from = "/logout"
   to = "https://dispatchitt.onrender.com/logout"
