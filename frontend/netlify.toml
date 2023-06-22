@@ -1,11 +1,6 @@
 [[redirects]]
-  from = "/login"
+  from = "/log-in"
   to = "https://dispatchitt.onrender.com/login"
-  status = 200
-
-[[redirects]]
-  from = "/login"
-  to = "/index.html"
   status = 200
 
 [[redirects]]
