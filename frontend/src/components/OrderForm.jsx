@@ -137,10 +137,11 @@ export default function OrderForm() {
     const place = autoCompleteRef.current.getPlace();
     setFormData((prevFormData) => ({
       ...prevFormData,
-      [fieldName]: place.formatted_address,
+      [fieldName]: place.formatted_address,    
     }));
   };
 
+ 
   if (!isLoaded) {
     return <p>Loading map..</p>;
   }
@@ -286,6 +287,7 @@ export default function OrderForm() {
                         onLoad={(autoComplete) =>
                           (pickupAutoCompleteRef.current = autoComplete)
                         }
+                        
                         onPlaceChanged={() =>
                           handlePlaceChanged("pickup_location")
                         }
