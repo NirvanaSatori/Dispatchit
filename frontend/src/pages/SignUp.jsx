@@ -78,7 +78,7 @@ function SignUp() {
                     value={formData.full_name}
                     onChange={handleInputChange}
                     className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-sm focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5"
-                    placeholder=""
+                    placeholder="Morris Waithaka"
                     required
                   />
                   {errors.full_name && (
@@ -101,7 +101,7 @@ function SignUp() {
                     value={formData.email}
                     onChange={handleInputChange}
                     className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-sm focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5"
-                    placeholder=""
+                    placeholder="morris.waithaka42@gmail.com"
                     required
                   />
                   {errors.email &&
@@ -123,7 +123,7 @@ function SignUp() {
                     value={formData.username}
                     onChange={handleInputChange}
                     className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-sm focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5"
-                    placeholder=""
+                    placeholder="Morriswaithaka"
                     required
                   />
                   {errors.username &&
