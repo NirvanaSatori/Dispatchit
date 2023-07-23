@@ -9,7 +9,7 @@ class StatusesController < ApplicationController
       if params[:location]
         if status.update(location: params[:location])
           render json: { message: 'Location updated successfully' }, status: :ok
-          from = SendGrid::Email.new(name: 'DispatchITCouriers', email: '')
+          from = SendGrid::Email.new(name: 'DispatchITCouriers', email: 'morris.waithaka42@gmail.com')
           to = SendGrid::Email.new(email: status.parcel.user.email)
           subject = 'Package location update.'
           content = SendGrid::Content.new(type: 'text/plain', value: "Your package #{status.parcel.parcel_name}, has had a location updated to #{status.location}")
