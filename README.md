@@ -17,10 +17,11 @@ DispatchIT is a courier service that helps users deliver parcels to different de
 
 
 ### Technical Implementation.
+    Frontend: ReactJS & Redux Toolkit (state management)
     Backend: Ruby on Rails
     Database: PostgreSQL
     Wireframes: Figma (mobile-friendly)
-    Frontend: ReactJS & Redux Toolkit (state management)
+    
 
     The project is built using ReactJS and Redux Toolkit for the frontend and Ruby on Rails for the backend, with PostgreSQL as the database.
 
